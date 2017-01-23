@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D00A7E6-FE98-42DF-BAEA-B704F110BC1F}</ProjectGuid>
+    <RootNamespace>ProductManagement</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\MySQL\MySQL Server 5.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\MySQL\MySQL Server 5.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files\MySQL\MySQL Server 5.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\MySQL\MySQL Server 5.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libmysql.lib;KeyBoard.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libmysql.lib;KeyBoard.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="I:\프로젝트\아이콘\spreadsheet.ico" />
+    <None Include="I:\프로젝트\아이콘\xls.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp00003.bmp" />
+    <None Include="res\bmp00004.bmp" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\ProductManagement.ico" />
+    <None Include="res\ProductManagement.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlgMemory.h" />
+    <ClInclude Include="Alg_Mysql.h" />
+    <ClInclude Include="Ctrl\BCMenu.h" />
+    <ClInclude Include="Ctrl\BtnST.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartAxis.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartAxisLabel.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartBalloonLabel.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartBarSerie.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartCandlestickSerie.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartCrossHairCursor.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartCtrl.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartCursor.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartDateTimeAxis.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartDragLineCursor.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartFont.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartGanttSerie.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartGradient.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartGrid.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartLabel.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartLegend.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartLineSerie.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartLogarithmicAxis.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartMouseListener.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartPointsArray.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartPointsSerie.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartScrollBar.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartSerie.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartSerieBase.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartSeriesMouseListener.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartStandardAxis.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartString.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartSurfaceSerie.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartTitle.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\ChartXYSerie.h" />
+    <ClInclude Include="Ctrl\ChartCtrl\PointsOrdering.h" />
+    <ClInclude Include="Ctrl\ColorListBox.h" />
+    <ClInclude Include="Ctrl\GradientStatic.h" />
+    <ClInclude Include="Ctrl\Grid\GridCell.h" />
+    <ClInclude Include="Ctrl\Grid\GridCellBase.h" />
+    <ClInclude Include="Ctrl\Grid\GridCellCheck.h" />
+    <ClInclude Include="Ctrl\Grid\GridCellCombo.h" />
+    <ClInclude Include="Ctrl\Grid\GridCellDateTime.h" />
+    <ClInclude Include="Ctrl\Grid\GridCellNumeric.h" />
+    <ClInclude Include="Ctrl\Grid\GridCtrl.h" />
+    <ClInclude Include="Ctrl\Grid\GridDropTarget.h" />
+    <ClInclude Include="Ctrl\Grid\InPlaceEdit.h" />
+    <ClInclude Include="Ctrl\Grid\TitleTip.h" />
+    <ClInclude Include="Ctrl\KeyBoard.h" />
+    <ClInclude Include="Ctrl\PublicFunction.h" />
+    <ClInclude Include="Ctrl\Variable.h" />
+    <ClInclude Include="Ctrl\XPGroupBox.h" />
+    <ClInclude Include="mysql.h" />
+    <ClInclude Include="ProductManagement.h" />
+    <ClInclude Include="ProductManagementDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlgMemory.cpp" />
+    <ClCompile Include="Alg_Mysql.cpp" />
+    <ClCompile Include="Ctrl\BCMenu.cpp" />
+    <ClCompile Include="Ctrl\BtnST.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartAxis.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartAxisLabel.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartBarSerie.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartCandlestickSerie.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartCrossHairCursor.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartCtrl.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartCursor.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartDateTimeAxis.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartDragLineCursor.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartFont.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartGanttSerie.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartGradient.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartGrid.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartLegend.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartLineSerie.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartLogarithmicAxis.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartPointsSerie.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartScrollBar.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartSerie.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartStandardAxis.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartSurfaceSerie.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartTitle.cpp" />
+    <ClCompile Include="Ctrl\ChartCtrl\ChartXYSerie.cpp" />
+    <ClCompile Include="Ctrl\ColorListBox.cpp" />
+    <ClCompile Include="Ctrl\GradientStatic.cpp" />
+    <ClCompile Include="Ctrl\Grid\GridCell.cpp" />
+    <ClCompile Include="Ctrl\Grid\GridCellBase.cpp" />
+    <ClCompile Include="Ctrl\Grid\GridCellCheck.cpp" />
+    <ClCompile Include="Ctrl\Grid\GridCellCombo.cpp" />
+    <ClCompile Include="Ctrl\Grid\GridCellDateTime.cpp" />
+    <ClCompile Include="Ctrl\Grid\GridCellNumeric.cpp" />
+    <ClCompile Include="Ctrl\Grid\GridCtrl.cpp" />
+    <ClCompile Include="Ctrl\Grid\GridDropTarget.cpp" />
+    <ClCompile Include="Ctrl\Grid\InPlaceEdit.cpp" />
+    <ClCompile Include="Ctrl\Grid\TitleTip.cpp" />
+    <ClCompile Include="Ctrl\PublicFunction.cpp" />
+    <ClCompile Include="Ctrl\XPGroupBox.cpp" />
+    <ClCompile Include="ProductManagement.cpp" />
+    <ClCompile Include="ProductManagementDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProductManagement.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ProductManagement.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

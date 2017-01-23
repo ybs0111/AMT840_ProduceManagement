@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Chart">
+      <UniqueIdentifier>{c6aa01cc-ff80-4591-a6e0-2bf6ad2809cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ProductManagement.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ProductManagement.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bmp00003.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bmp00004.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="I:\프로젝트\아이콘\spreadsheet.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="I:\프로젝트\아이콘\xls.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProductManagement.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductManagementDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\BCMenu.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\BtnST.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ColorListBox.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\GradientStatic.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\KeyBoard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\PublicFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Variable.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\XPGroupBox.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\GridCell.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\GridCellBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\GridCellCheck.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\GridCellCombo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\GridCellDateTime.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\GridCellNumeric.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\GridCtrl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\InPlaceEdit.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\GridDropTarget.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\Grid\TitleTip.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartAxis.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartAxisLabel.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartBalloonLabel.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartBarSerie.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartCandlestickSerie.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartCrossHairCursor.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartCtrl.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartCursor.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartDateTimeAxis.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartDragLineCursor.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartFont.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartGanttSerie.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartGradient.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartGrid.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartLabel.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartLegend.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartLineSerie.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartLogarithmicAxis.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartMouseListener.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartPointsArray.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartPointsSerie.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartScrollBar.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartSerie.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartSerieBase.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartSeriesMouseListener.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartStandardAxis.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartString.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartSurfaceSerie.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartTitle.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\ChartXYSerie.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctrl\ChartCtrl\PointsOrdering.h">
+      <Filter>Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="Alg_Mysql.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgMemory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProductManagement.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductManagementDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\BCMenu.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\BtnST.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ColorListBox.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\GradientStatic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\PublicFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\XPGroupBox.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\GridCell.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\GridCellBase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\GridCellCheck.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\GridCellCombo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\GridCellDateTime.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\GridCellNumeric.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\GridCtrl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\InPlaceEdit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\GridDropTarget.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\Grid\TitleTip.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartAxis.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartAxisLabel.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartBarSerie.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartCandlestickSerie.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartCrossHairCursor.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartCtrl.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartCursor.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartDateTimeAxis.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartDragLineCursor.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartFont.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartGanttSerie.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartGradient.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartGrid.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartLegend.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartLineSerie.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartLogarithmicAxis.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartPointsSerie.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartScrollBar.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartSerie.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartStandardAxis.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartSurfaceSerie.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartTitle.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctrl\ChartCtrl\ChartXYSerie.cpp">
+      <Filter>Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="Alg_Mysql.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgMemory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProductManagement.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
